@@ -2,10 +2,19 @@ const progress = document.getElementById('progress')
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
 const circles = document.querySelectorAll('.circle')
+// const fotos = document.querySelectorAll('.foto')
+
+// function addActiveClasses(){
+//     fotos.forEach(foto => {
+//         removeActiveClasses()
+//         foto.classList.add('active')
+//     })
+// }
 
 let currentActive = 1
 
 next.addEventListener('click', () => {
+    // addActiveClasses()
     currentActive++
 
     if(currentActive > circles.length) {

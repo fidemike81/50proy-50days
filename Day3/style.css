@@ -20,6 +20,19 @@ body {
   margin: 0;
 }
 
+img {
+  width: 300px;
+}
+
+.foto {
+  background:violet;
+  border-radius: 1em;
+}
+
+.foto.active {
+  flex: 4;
+}
+
 .container {
   text-align: center;
 }
